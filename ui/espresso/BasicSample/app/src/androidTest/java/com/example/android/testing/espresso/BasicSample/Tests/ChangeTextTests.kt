@@ -35,4 +35,5 @@ class ChangeTextTests {
 
         SecondPageSteps.validateSecondPageText(TestData.DIFFERENT_MOVIE)
     }
+
 }

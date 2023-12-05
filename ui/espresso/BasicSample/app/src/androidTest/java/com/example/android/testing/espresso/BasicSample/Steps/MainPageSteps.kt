@@ -1,7 +1,9 @@
 package com.example.android.testing.espresso.BasicSample.Steps
 
 import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.action.ViewActions.clearText
+import androidx.test.espresso.action.ViewActions.click
 import com.example.android.testing.espresso.BasicSample.PageMatchers.MainPageMatcher
 import com.example.android.testing.espresso.BasicSample.getText
 import com.example.android.testing.espresso.BasicSample.tap
